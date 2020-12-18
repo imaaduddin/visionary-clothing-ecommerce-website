@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../../components/menu-item/menu-item.styles.scss"
+
 const MenuItem = ({ title }) => (
   <div className="menu-item">
     <div className="content">
